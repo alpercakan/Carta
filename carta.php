@@ -1,6 +1,6 @@
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/backend-systems/includes/database_constants.php');
+require_once('/database_constants.php');
 
 /**
  * Records the given error to the database
