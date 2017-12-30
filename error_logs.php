@@ -67,7 +67,7 @@ for ($counter = 0; $counter < $logCount; ++$counter)
     echo "<td>".$logs[$counter]['ID']."</td>";
     echo "<td>".$logs[$counter]['MESSAGE']."</td>";
     echo "<td>".$logs[$counter]['EXCEPTION_MESSAGE']."</td>";
-    echo "<td>".date(CUSTOM_DATE_FORMAT, $logs[$counter]['LOG_TIME'] + UTC_TO_TURKEY)."</td>";
+    echo "<td>".date(CUSTOM_DATE_FORMAT, $logs[$counter]['LOG_TIME'])."</td>";
     echo "<td>".$logs[$counter]['FILE']."</td>";
     echo "<td>".$logs[$counter]['LINE']."</td>";
     echo "<td>".$logs[$counter]['PHP_ERROR_MESSAGE']."</td>";
