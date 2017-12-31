@@ -1,5 +1,5 @@
 # Carta
-A simple PHP library for logging exceptions &amp; errors easily and later viewing them in a beatiful simple yet detailed page.
+A simple PHP library for logging exceptions &amp; errors easily and later viewing them in a simple page. Works only with MySQL databases.
 
 View page uses Foundation CSS.
 
