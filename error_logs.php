@@ -6,11 +6,10 @@
     ?>
 
     <title>Error Logs</title>
-
+    <!-- DO NOT FORGET TO ADD Foundation CSS -->
 </head>
 
 <body>
-<?php include_once($_SERVER['DOCUMENT_ROOT']."/analyticstracking.php") ?>
 <div class="row text-center">
     <h3>Error logs as of <b><?php echo date(CUSTOM_DATE_FORMAT, time()); ?></b></h3>
 </div>
